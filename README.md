@@ -8,4 +8,4 @@ Run ./configure and make
 
 ## Screenshot
 
-![My desktop](sreenshot.png) 
+![My desktop](https://raw.githubusercontent.com/PascalNoisette/ibis-wallpaper/master/screenshot.png) 
