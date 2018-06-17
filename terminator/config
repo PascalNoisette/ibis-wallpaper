@@ -1,0 +1,81 @@
+[global_config]
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+  [[DesktopConsole_1]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 12fc24eb-91df-42d1-b84b-aa4fcaf1fbed
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:27
+      size = 1920, 1016
+      title = DesktopConsole_1
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 504
+      ratio = 0.498523622047
+      type = VPaned
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 958
+      ratio = 0.500260416667
+      type = HPaned
+    [[[child5]]]
+      order = 1
+      parent = child1
+      position = 958
+      ratio = 0.500260416667
+      type = HPaned
+    [[[terminal3]]]
+      command = iftop
+      order = 0
+      parent = child2
+      profile = DesktopConsole_1
+      type = Terminal
+      uuid = 12fc24eb-91df-42d1-b84b-aa4fcaf1fbed
+    [[[terminal4]]]
+      command = "watch -n5 -t --color  'dmesg --color=always | tail -n 31' "
+      order = 1
+      parent = child2
+      profile = DesktopConsole_1
+      type = Terminal
+      uuid = 247016cc-12f8-4752-8ef9-719cd714dc47
+    [[[terminal6]]]
+      command = "watch -n30 -t 'tail -n 30 ~/.devilspie/art.txt'"
+      directory = ""
+      order = 0
+      parent = child5
+      profile = DesktopConsole_1
+      type = Terminal
+      uuid = 97faec11-0e05-4a9d-8ed5-11e126d25f9b
+    [[[terminal7]]]
+      command = htop -d 50
+      directory = ""
+      order = 1
+      parent = child5
+      profile = DesktopConsole_1
+      type = Terminal
+      uuid = 5af145a7-674d-4cee-8f44-0b4af5011f56
+[plugins]
+[profiles]
+  [[default]]
+    background_image = None
+  [[DesktopConsole_1]]
+    background_darkness = 0.69
+    background_image = None
+    background_type = transparent
+    scrollback_lines = 100
+    scrollbar_position = hidden
+    show_titlebar = False

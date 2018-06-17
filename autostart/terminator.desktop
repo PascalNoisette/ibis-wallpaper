@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=sh -c "devilspie & terminator -l DesktopConsole_1 -p DesktopConsole_1  -T DesktopConsole_1  -b"
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=devilspieterm
+Name=devilspieterm
+Comment[en_US]=
+Comment=
