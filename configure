@@ -2,5 +2,6 @@
 
 sudo apt-get install devilspie terminator htop iftop
 sudo setcap cap_net_raw,cap_net_admin=eip /usr/sbin/iftop
-
-
+sudo sysctl kernel.dmesg_restrict=0
+echo kernel.dmesg_restrict = 0 | sudo tee -a /etc/sysctl.d/10-local.conf >/dev/null
+sudo update-alternatives --config x-terminal-emulator
